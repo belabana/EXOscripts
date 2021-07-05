@@ -1,7 +1,7 @@
-﻿<#
+<#
 .NOTES
-	Name: Bulk_public_folder_creation.ps1
-	Author: Bela Bana | https://github.com/belabana
+    Name: Bulk_public_folder_creation.ps1
+    Author: Bela Bana | https://github.com/belabana
     Request: I needed to automate the creation of new sites with mail enabled public folders in a hybrid Exchange environment.
     Classification: Public
     Disclaimer: Author does not take responsibility for any unexpected outcome that could arise from using this script.
@@ -19,7 +19,7 @@
     Transcript and timestamps are also added to calculate runtime and write output to a .log file. Path: "C:\temp"
     It should be executed with credentials of an Exchange Administrator from the onpremise Exchange server.
 
-.PARAMETER Credential
+.PARAMETER ADAdminCredential
     Credentials of a user with Domain and Exchange administrator access.
 #>
 param(
