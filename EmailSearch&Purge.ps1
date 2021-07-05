@@ -1,7 +1,8 @@
-﻿<#
+<#
 .NOTES
-	Name: EmailSearch&Purge.ps1
-	Author: Bela Bana | https://github.com/belabana
+    ***I AM STILL WORKING ON THIS SCRIPT, IT IS PARTIALLY TESTED. PLEASE WAIT UNTIL NEXT VERSION.***
+    Name: EmailSearch&Purge.ps1
+    Author: Bela Bana | https://github.com/belabana
     Request: I needed to provide my colleagues with an informative script which is able to purge a malicious email from Exchange Online mailboxes.
     Classification: Public
     Disclaimer: Author does not take responsibility for any unexpected outcome that could arise from using this script.
