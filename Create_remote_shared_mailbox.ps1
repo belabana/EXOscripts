@@ -1,7 +1,7 @@
-﻿<#
+<#
 .NOTES
-	Name: Create_remote_shared_mailbox.ps1
-	Author: Bela Bana | https://github.com/belabana
+    Name: Create_remote_shared_mailbox.ps1
+    Author: Bela Bana | https://github.com/belabana
     Request: I needed to automate the creation of a new site with a remote shared mailbox in a hybrid Exchange environment.
     Classification: Public
     Disclaimer: Author does not take responsibility for any unexpected outcome that could arise from using this script.
@@ -26,7 +26,7 @@
 .PARAMETER EmailAddress
     The desired email address required to be created for the new site.
 
-.PARAMETER Credential
+.PARAMETER ADAdminCredential
     Credentials of a user with Domain and Exchange administrator access.
 #>
 param(
